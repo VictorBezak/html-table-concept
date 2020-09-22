@@ -1,0 +1,60 @@
+*
+  box-sizing: border-box
+  
+body
+  height: 100vh
+  display: grid
+  place-items: center
+
+
+.card-content
+  background-color: #eeefef
+
+.table-collection
+  display: flex
+  *
+    text-align: center
+
+  td, th
+    border-radius: 0 !important
+    padding: 10px 5px !important
+    
+  table
+    border-collapse: separate
+    width: min-content
+    border-radius: 11px
+    margin: 0 6px
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.3)
+    thead
+      tr:first-child
+        background-color: #24628c
+        color: white
+        th
+          border-radius: 10px 10px 0 0 !important
+          font-weight: 400
+      tr:last-child
+        background-color: #d2ebfc
+        color: #24628c
+        font-size: 0.9em
+        th
+          border-bottom: solid lightgrey 2px
+    tbody
+      font-size: 0.8em
+      td
+        border-bottom: solid lightgrey 1px
+      & > tr:nth-child(even)
+        background-color: #f0f8fe
+      & > tr:nth-child(odd)
+        background-color: white
+      & > tr:hover
+        background-color: #d2ebfc
+        td:hover
+          outline: solid #24628c 1px      
+    tfoot
+      background-color: #24628c
+      color: white
+      font-size: 0.9em
+      th:first-child
+        border-radius: 0 0 0 10px !important
+      th:last-child
+        border-radius: 0 0 10px 0 !important
