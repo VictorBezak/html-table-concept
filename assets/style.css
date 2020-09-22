@@ -14,22 +14,23 @@ body {
   background-color: #eeefef;
 }
 
-.table-collection {
+.table-collection.analytics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.table-collection * {
+.table-collection.analytics * {
   text-align: center;
+  cursor: default;
 }
 
-.table-collection td, .table-collection th {
+.table-collection.analytics td, .table-collection.analytics th {
   border-radius: 0 !important;
   padding: 10px 5px !important;
 }
 
-.table-collection table {
+.table-collection.analytics table {
   border-collapse: separate;
   width: -webkit-min-content;
   width: -moz-min-content;
@@ -40,61 +41,61 @@ body {
           box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.3);
 }
 
-.table-collection table thead tr:first-child {
+.table-collection.analytics table thead tr:first-child {
   background-color: #24628c;
   color: white;
 }
 
-.table-collection table thead tr:first-child th {
+.table-collection.analytics table thead tr:first-child th {
   border-radius: 10px 10px 0 0 !important;
   font-weight: 400;
 }
 
-.table-collection table thead tr:last-child {
+.table-collection.analytics table thead tr:last-child {
   background-color: #d2ebfc;
   color: #24628c;
   font-size: 0.9em;
 }
 
-.table-collection table thead tr:last-child th {
+.table-collection.analytics table thead tr:last-child th {
   border-bottom: solid lightgrey 2px;
 }
 
-.table-collection table tbody {
+.table-collection.analytics table tbody {
   font-size: 0.8em;
 }
 
-.table-collection table tbody td {
+.table-collection.analytics table tbody td {
   border-bottom: solid lightgrey 1px;
 }
 
-.table-collection table tbody > tr:nth-child(even) {
+.table-collection.analytics table tbody > tr:nth-child(even) {
   background-color: #f0f8fe;
 }
 
-.table-collection table tbody > tr:nth-child(odd) {
+.table-collection.analytics table tbody > tr:nth-child(odd) {
   background-color: white;
 }
 
-.table-collection table tbody > tr:hover {
+.table-collection.analytics table tbody > tr:hover {
   background-color: #d2ebfc;
 }
 
-.table-collection table tbody > tr:hover td:hover {
+.table-collection.analytics table tbody > tr:hover td:hover {
   outline: solid #24628c 1px;
 }
 
-.table-collection table tfoot {
+.table-collection.analytics table tfoot {
   background-color: #24628c;
   color: white;
   font-size: 0.9em;
 }
 
-.table-collection table tfoot th:first-child {
+.table-collection.analytics table tfoot th:first-child {
   border-radius: 0 0 0 10px !important;
 }
 
-.table-collection table tfoot th:last-child {
+.table-collection.analytics table tfoot th:last-child {
   border-radius: 0 0 10px 0 !important;
 }
 /*# sourceMappingURL=style.css.map */
